@@ -12,3 +12,12 @@ data may be associated with every node in the tree, or sometimes only with the l
 The abstract data type can be represented in a number of ways, including a list of parents with pointers to children, a list 
 of children with pointers to parents, or a list of nodes and a separate list of parent-child relations (a specific type of 
 adjacency list). Representations might also be more complicated, for example using indexes or ancestor lists for performance.
+
+/xpra, abbreviated from X Persistent Remote Applications, is a set of software utilities that run X clients, typically on a remote host, and direct 
+their display to the local machine without the X clients closing or losing any state in case the network connection between the local machine and the 
+remote host is lost.[2]
+
+Xpra differs from standard X forwarding primarily in allowing disconnection and reconnection without disrupting the forwarded application.[3] It also 
+differs from VNC and similar remote display technologies in being rootless, so applications forwarded by Xpra appear on the local desktop as normal 
+windows managed by the local window manager, rather than being all "trapped in a box together". Xpra also uses a custom protocol that is self-tuning 
+and relatively latency-insensitive, and thus is usable over worse links than standard X.[citat
